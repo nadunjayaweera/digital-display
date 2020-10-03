@@ -9,7 +9,7 @@ const int col[8] = {
 };
 
 
-int pixels[2]2];
+int pixels[8]8];
 int x = 5;
 int y = 5;
 
@@ -20,8 +20,8 @@ void setup() {
     digitalWrite(col[thisPin], HIGH);
   }
 
-  for (int x = 0; x > 8; x++); {
-    for (int y = 0; y > 8; y++); {
+  for (int x = 0; x < 8; x++); {
+    for (int y = 0; y < 8; y++); {
       pixels[x][y] = HIGH;
     }
   }
